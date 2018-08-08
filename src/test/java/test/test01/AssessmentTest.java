@@ -1,7 +1,5 @@
 package test.test01;
 
-import static org.junit.Assert.*;
-
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
@@ -9,13 +7,13 @@ import org.junit.Test;
 
 
 public class AssessmentTest {
-	
-	private Assessment myAssessment;
+  
+  private Assessment myAssessment;
 
-	@Before
-	public void setUp() throws Exception {
-		myAssessment = new Assessment();
-	}
+  @Before
+    public void setUp() throws Exception {
+    myAssessment = new Assessment();
+  }
 
 	@After
 	public void tearDown() throws Exception {
